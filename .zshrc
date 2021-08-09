@@ -145,7 +145,8 @@ source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
 # The first line makes the chruby program available in the shell. The second line will automatically switch the current version of Ruby when you change directories if a hidden file indicates a specific Ruby version.
 # set the 2.7.2 Ruby version as a default.
-chruby ruby-2.7.2
+# chruby ruby-2.7.2
+chruby ruby-3.0.0
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
