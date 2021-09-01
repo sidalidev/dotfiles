@@ -135,10 +135,13 @@ alias vh="v ."
 # Config aliases
 alias sourcezshrc="source ~/.zshrc"
 alias updatepackages="updatepackages"
-# Rails aliases
-alias rorb="bin/bundle"
-alias ror="bin/rails"
-alias rordbr="ror db:drop db:create db:migrate db:seed"
+# Ruby/Rails aliases
+alias rb="bin/bundle"
+alias r="bin/rails"
+alias rdbr="r db:drop db:create db:migrate db:seed"
+# JS aliases
+alias n="npm run"
+alias y="yarn"
 
 # Ruby configuration
 source /usr/local/share/chruby/chruby.sh
@@ -162,7 +165,7 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # To activate the syntax highlighting, add the following at the end of your .zshrc:
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# If you receive "highlighters directory not found" error message, you may need to add the following to your .zshenv:
+# If you receive "highlighters directory not found" err message, you may need to add the following to your .zshenv:
 # export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/share/zsh-syntax-highlighting/highlighters
 
 # zsh-completions
