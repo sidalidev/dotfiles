@@ -136,7 +136,7 @@ alias vh="v ."
 alias sourcezshrc="source ~/.zshrc"
 alias updatepackages="updatepackages"
 # Ruby/Rails aliases
-alias rb="bin/bundle"
+alias b="bin/bundle"
 alias r="bin/rails"
 alias rdbr="r db:drop db:create db:migrate db:seed"
 # JS aliases
