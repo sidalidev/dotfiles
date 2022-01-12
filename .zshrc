@@ -200,7 +200,7 @@ eval "$(starship init zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_COMMAND='rg --files --hidden -g "!.git"'
 
-export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home"
-export PATH="/usr/local/opt/openjdk/bin:$PATH"
+# export JAVA_HOME="/Applications/Android\ Studio.app/Contents/jre"
+# export PATH="/usr/local/opt/openjdk/bin:$PATH"
   
 echo "🚀 ZSH is ready"
