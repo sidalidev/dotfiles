@@ -138,6 +138,11 @@ alias updatepackages="updatepackages"
 # Ruby/Rails aliases
 alias b="bin/bundle"
 alias r="bin/rails"
+alias bi="b install"
+alias bir="bi --redownload"
+alias bd="bin/dev"
+alias rsd="bd s"
+alias rs="r s"
 alias rdbr="r db:drop db:create db:migrate db:seed"
 # JS aliases
 alias n="npm run"
