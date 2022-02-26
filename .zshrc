@@ -143,6 +143,7 @@ alias bir="bi --redownload"
 alias bd="bin/dev"
 alias rsd="bd s"
 alias rs="r s"
+alias rc="r c"
 alias rdbr="r db:drop db:create db:migrate db:seed"
 # JS aliases
 alias n="npm run"
