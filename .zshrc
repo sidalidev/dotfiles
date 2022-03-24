@@ -148,6 +148,7 @@ alias rdbr="r db:drop db:create db:migrate db:seed"
 # JS aliases
 alias n="npm run"
 alias y="yarn"
+alias fb="flutter clean && flutter build appbundle"
 
 # Ruby configuration
 source /usr/local/share/chruby/chruby.sh
