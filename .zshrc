@@ -22,11 +22,8 @@ function updatepackages {
   echo '⌨️  Node, npm, Yarn versions'
   node -v
   npm -v
-  yarn -v
   echo '🐦 Flutter version'
   flutter --version
-  echo '🕵️‍♂️ Check global npm packages'
-  ncu -g
 }
 
 echo "🎬 Setting up zsh..."
