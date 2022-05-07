@@ -150,6 +150,7 @@ alias fb="flutter clean && flutter build appbundle"
 # Heroku
 alias hl="heroku logs -t"
 alias hc="heroku console"
+alias dock="docker-compose"
 
 # Ruby configuration
 source /usr/local/share/chruby/chruby.sh
